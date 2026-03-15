@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Banana body -->
+  <path data-region="banana" d="M 120 300 Q 80 200 120 130 Q 160 60 240 80 Q 310 95 330 140 Q 290 130 250 140 Q 180 160 160 240 Q 145 290 160 330 Q 140 330 120 300 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Banana tip left -->
+  <path data-region="tip-left" d="M 120 300 Q 100 320 85 310 Q 90 295 120 300 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Banana tip right -->
+  <path data-region="tip-right" d="M 330 140 Q 355 130 355 150 Q 345 165 330 140 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Ridge lines (decorative) -->
+  <path d="M 165 245 Q 195 175 245 148" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 148 275 Q 175 210 225 175" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+</svg>

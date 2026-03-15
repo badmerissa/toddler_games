@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Left lobe of apple -->
+  <path data-region="apple-left" d="M 200 130 Q 120 90 100 160 Q 80 240 150 300 Q 175 325 200 330 Q 175 280 175 220 Q 175 175 200 130 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Right lobe of apple -->
+  <path data-region="apple-right" d="M 200 130 Q 280 90 300 160 Q 320 240 250 300 Q 225 325 200 330 Q 225 280 225 220 Q 225 175 200 130 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Leaf -->
+  <path data-region="leaf" d="M 210 95 Q 250 50 280 70 Q 260 110 210 95 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Stem -->
+  <line x1="205" y1="95" x2="205" y2="60" stroke="#1a1a1a" stroke-width="6" stroke-linecap="round" pointer-events="none"/>
+  <!-- Shine -->
+  <ellipse data-region="shine" cx="145" cy="175" rx="28" ry="18" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" transform="rotate(-20 145 175)"/>
+  <!-- Leaf vein -->
+  <path d="M 215 92 Q 248 68 272 73" fill="none" stroke="#1a1a1a" stroke-width="2" pointer-events="none"/>
+</svg>
