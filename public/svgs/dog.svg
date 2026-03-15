@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Body -->
+  <ellipse data-region="body" cx="200" cy="285" rx="110" ry="85" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Head -->
+  <circle data-region="head" cx="200" cy="155" r="80" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Left ear (floppy) -->
+  <ellipse data-region="left-ear" cx="135" cy="140" rx="35" ry="55" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" transform="rotate(-20 135 140)"/>
+  <!-- Right ear (floppy) -->
+  <ellipse data-region="right-ear" cx="265" cy="140" rx="35" ry="55" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" transform="rotate(20 265 140)"/>
+  <!-- Snout -->
+  <ellipse data-region="snout" cx="200" cy="185" rx="40" ry="30" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Tummy -->
+  <ellipse data-region="tummy" cx="200" cy="290" rx="55" ry="52" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Eyes -->
+  <circle cx="175" cy="145" r="11" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="225" cy="145" r="11" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="178" cy="142" r="3.5" fill="#FFFFFF" pointer-events="none"/>
+  <circle cx="228" cy="142" r="3.5" fill="#FFFFFF" pointer-events="none"/>
+  <!-- Nose -->
+  <ellipse cx="200" cy="176" rx="12" ry="9" fill="#1a1a1a" pointer-events="none"/>
+  <ellipse cx="196" cy="173" rx="3" ry="2" fill="#555" pointer-events="none"/>
+  <!-- Mouth -->
+  <path d="M 188 190 Q 200 202 212 190" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <!-- Tail -->
+  <path data-region="tail" d="M 305 265 Q 360 220 345 170" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 305 265 Q 360 220 345 170" fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round" pointer-events="none"/>
+</svg>

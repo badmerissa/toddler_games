@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Body -->
+  <ellipse data-region="body" cx="200" cy="290" rx="120" ry="90" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Wing -->
+  <ellipse data-region="wing" cx="155" cy="285" rx="55" ry="38" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" transform="rotate(-10 155 285)"/>
+  <!-- Head -->
+  <circle data-region="head" cx="280" cy="170" r="60" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Neck connector (decorative outline only) -->
+  <path d="M 255 220 Q 260 240 230 255" fill="none" stroke="#1a1a1a" stroke-width="5" pointer-events="none"/>
+  <!-- Beak -->
+  <polygon data-region="beak" points="330,170 365,160 365,182" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Eye -->
+  <circle cx="295" cy="160" r="10" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="298" cy="157" r="3" fill="#FFFFFF" pointer-events="none"/>
+  <!-- Tummy -->
+  <ellipse data-region="tummy" cx="220" cy="295" rx="60" ry="55" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Feet (decorative) -->
+  <path d="M 160 370 Q 145 385 130 375 M 160 370 Q 160 385 145 380 M 160 370 Q 170 380 158 388" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 230 372 Q 215 387 200 377 M 230 372 Q 230 387 215 382 M 230 372 Q 240 382 228 390" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" pointer-events="none"/>
+</svg>

@@ -1,0 +1,9 @@
+/audio/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/svgs/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff

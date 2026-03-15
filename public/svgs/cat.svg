@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Body -->
+  <ellipse data-region="body" cx="200" cy="280" rx="100" ry="90" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Head -->
+  <circle data-region="head" cx="200" cy="160" r="80" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Left ear -->
+  <polygon data-region="left-ear" points="140,100 110,40 170,85" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Right ear -->
+  <polygon data-region="right-ear" points="260,100 290,40 230,85" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Tummy -->
+  <ellipse data-region="tummy" cx="200" cy="285" rx="55" ry="55" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Face: eyes (no region - decorative) -->
+  <circle cx="175" cy="155" r="10" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="225" cy="155" r="10" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="178" cy="152" r="3" fill="#FFFFFF" pointer-events="none"/>
+  <circle cx="228" cy="152" r="3" fill="#FFFFFF" pointer-events="none"/>
+  <!-- Nose -->
+  <polygon points="200,175 193,185 207,185" fill="#FF9BB0" stroke="#1a1a1a" stroke-width="2" pointer-events="none"/>
+  <!-- Mouth -->
+  <path d="M 193 185 Q 200 195 207 185" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <!-- Whiskers -->
+  <line x1="130" y1="178" x2="185" y2="182" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="130" y1="188" x2="185" y2="188" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="215" y1="182" x2="270" y2="178" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="215" y1="188" x2="270" y2="188" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <!-- Tail -->
+  <path data-region="tail" d="M 300 320 Q 360 280 340 220 Q 330 180 310 200" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 300 320 Q 360 280 340 220 Q 330 180 310 200" fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round" pointer-events="none"/>
+</svg>

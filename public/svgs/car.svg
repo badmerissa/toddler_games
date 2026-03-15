@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Car body lower -->
+  <rect data-region="body" x="40" y="230" width="320" height="100" rx="20" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Car cabin -->
+  <path data-region="cabin" d="M 100 230 Q 120 160 170 150 L 250 150 Q 300 160 310 230 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Windscreen -->
+  <path data-region="windscreen" d="M 115 225 Q 132 172 172 163 L 248 163 Q 284 173 298 225 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5"/>
+  <!-- Left wheel -->
+  <circle data-region="wheel-left" cx="115" cy="335" r="45" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <circle cx="115" cy="335" r="22" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <!-- Right wheel -->
+  <circle data-region="wheel-right" cx="285" cy="335" r="45" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <circle cx="285" cy="335" r="22" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <!-- Headlight -->
+  <rect x="48" y="248" width="32" height="18" rx="6" fill="#FFFAAA" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <!-- Taillight -->
+  <rect x="320" y="248" width="32" height="18" rx="6" fill="#FFFAAA" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <!-- Door line (decorative) -->
+  <line x1="200" y1="230" x2="200" y2="320" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <!-- Door handle -->
+  <rect x="215" y="272" width="28" height="10" rx="5" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+</svg>
