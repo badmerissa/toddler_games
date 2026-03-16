@@ -7,7 +7,7 @@ export function BackButton() {
   const router = useRouter();
   return (
     <BigButton
-      onClick={() => router.push('/')}
+      onClick={() => router.push('/coloring-book/')}
       aria-label="Back to gallery"
       className="bg-white/20 hover:bg-white/30 text-white px-4"
     >

@@ -66,15 +66,28 @@ export function getCompletionPercent(slug: string, regionCount: number): number 
   return Math.min(100, Math.round((fills / regionCount) * 100));
 }
 
+function defaultSettings(): SettingsStore {
+  return { version: 2, soundEnabled: true, highContrast: false, lastOpenedSlug: null };
+}
+
 export function getSettings(): SettingsStore {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
-    if (!raw) return { version: 1, soundEnabled: true, lastOpenedSlug: null };
-    const parsed = JSON.parse(raw) as SettingsStore;
-    if (parsed.version !== 1) return { version: 1, soundEnabled: true, lastOpenedSlug: null };
-    return parsed;
+    if (!raw) return defaultSettings();
+    const parsed = JSON.parse(raw);
+    // Migrate v1 → v2
+    if (parsed.version === 1) {
+      return {
+        version: 2,
+        soundEnabled: parsed.soundEnabled ?? true,
+        highContrast: false,
+        lastOpenedSlug: parsed.lastOpenedSlug ?? null,
+      };
+    }
+    if (parsed.version !== 2) return defaultSettings();
+    return parsed as SettingsStore;
   } catch {
-    return { version: 1, soundEnabled: true, lastOpenedSlug: null };
+    return defaultSettings();
   }
 }
 

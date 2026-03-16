@@ -46,6 +46,9 @@ function reducer(state: ColoringState, action: ColoringAction): ColoringState {
     case 'CLEAR_IMAGE':
       return { ...state, fills: {}, history: [], isComplete: false, isCelebrating: false };
 
+    case 'RESET_ALL':
+      return { ...state, fills: {}, history: [], isComplete: false, isCelebrating: false, activeSlug: null };
+
     case 'SET_COMPLETE':
       return { ...state, isComplete: true, isCelebrating: true };
 
@@ -58,6 +61,12 @@ function reducer(state: ColoringState, action: ColoringAction): ColoringState {
       return { ...state, soundEnabled };
     }
 
+    case 'TOGGLE_HIGH_CONTRAST': {
+      const highContrast = !state.highContrast;
+      storage.setSettings({ highContrast });
+      return { ...state, highContrast };
+    }
+
     default:
       return state;
   }
@@ -67,7 +76,10 @@ const StateContext = createContext<ColoringState | null>(null);
 const DispatchContext = createContext<React.Dispatch<ColoringAction> | null>(null);
 
 export function ColoringProvider({ children }: { children: React.ReactNode }) {
-  const settings = typeof window !== 'undefined' ? storage.getSettings() : { soundEnabled: true };
+  const settings =
+    typeof window !== 'undefined'
+      ? storage.getSettings()
+      : { soundEnabled: true, highContrast: false };
 
   const [state, baseDispatch] = useReducer(reducer, {
     activeSlug: null,
@@ -77,6 +89,7 @@ export function ColoringProvider({ children }: { children: React.ReactNode }) {
     isComplete: false,
     isCelebrating: false,
     soundEnabled: settings.soundEnabled,
+    highContrast: settings.highContrast,
   });
 
   // Wrap dispatch to handle persistence side-effects
@@ -90,6 +103,9 @@ export function ColoringProvider({ children }: { children: React.ReactNode }) {
       }
       if (action.type === 'CLEAR_IMAGE' && state.activeSlug) {
         storage.clearProgress(state.activeSlug);
+      }
+      if (action.type === 'RESET_ALL') {
+        storage.clearAllProgress();
       }
       baseDispatch(action);
     },

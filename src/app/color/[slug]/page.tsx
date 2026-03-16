@@ -1,6 +1,5 @@
-import { notFound } from 'next/navigation';
-import { coloringImages, getImage } from '@/lib/images';
-import { ColoringCanvas } from '@/components/coloring/ColoringCanvas';
+import { coloringImages } from '@/lib/images';
+import { RedirectToNewUrl } from './RedirectToNewUrl';
 
 export function generateStaticParams() {
   return coloringImages.map((img) => ({ slug: img.slug }));
@@ -8,9 +7,7 @@ export function generateStaticParams() {
 
 type Props = { params: Promise<{ slug: string }> };
 
-export default async function ColorPage({ params }: Props) {
+export default async function OldColorPageRedirect({ params }: Props) {
   const { slug } = await params;
-  const image = getImage(slug);
-  if (!image) notFound();
-  return <ColoringCanvas image={image} />;
+  return <RedirectToNewUrl slug={slug} />;
 }

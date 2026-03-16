@@ -20,8 +20,9 @@ export type ProgressStore = {
 };
 
 export type SettingsStore = {
-  version: 1;
+  version: 2;
   soundEnabled: boolean;
+  highContrast: boolean;
   lastOpenedSlug: string | null;
 };
 
@@ -43,6 +44,7 @@ export type ColoringState = {
   isComplete: boolean;
   isCelebrating: boolean;
   soundEnabled: boolean;
+  highContrast: boolean;
 };
 
 export type ColoringAction =
@@ -53,4 +55,17 @@ export type ColoringAction =
   | { type: 'CLEAR_IMAGE'; slug: string }
   | { type: 'SET_COMPLETE' }
   | { type: 'DISMISS_CELEBRATION' }
-  | { type: 'TOGGLE_SOUND' };
+  | { type: 'TOGGLE_SOUND' }
+  | { type: 'TOGGLE_HIGH_CONTRAST' }
+  | { type: 'RESET_ALL' };
+
+export type BlogPost = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  publishedAt: string;
+  readingTime: number;
+  tags: string[];
+  type: 'original' | 'curated';
+  externalLinks?: { title: string; url: string; source: string }[];
+};

@@ -23,3 +23,15 @@ svg {
   header, nav, .no-print { display: none !important; }
   svg { width: 100vw; height: auto; }
 }
+
+/* High contrast mode — applied via JS to <html> element */
+.high-contrast [data-color-swatch] {
+  border: 3px solid #000 !important;
+  outline: 2px solid #fff !important;
+}
+
+.high-contrast [data-color-swatch][data-active='true'] {
+  border: 3px solid #000 !important;
+  outline: 3px solid #000 !important;
+  outline-offset: 2px !important;
+}
