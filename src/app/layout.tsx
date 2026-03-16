@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { ColoringProvider } from '@/context/ColoringContext';
 import { HighContrastApplier } from '@/components/shell/HighContrastApplier';
+import { Analytics } from "@vercel/analytics/next"
 
 const SITE_URL = 'https://toddlergames.app';
 const SITE_NAME = 'Toddler Games';
@@ -78,6 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <HighContrastApplier />
           {children}
         </ColoringProvider>
+        <Analytics/>
       </body>
     </html>
   );
