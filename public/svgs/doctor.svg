@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Hair (drawn before face) -->
+  <path data-region="hair"
+    d="M 148 88 Q 115 108 112 148 Q 108 188 120 210 Q 128 196 132 178 Q 138 155 148 142 Q 148 112 160 100 Q 172 90 200 86 Q 228 90 240 100 Q 252 112 252 142 Q 262 155 268 178 Q 272 196 280 210 Q 292 188 288 148 Q 285 108 252 88 Q 232 72 200 70 Q 168 72 148 88 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Face -->
+  <circle data-region="face" cx="200" cy="148" r="62"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Hair top curve visible above face -->
+  <!-- Eyes -->
+  <circle cx="180" cy="140" r="11" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="220" cy="140" r="11" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="183" cy="136" r="4" fill="#FFFFFF" pointer-events="none"/>
+  <circle cx="223" cy="136" r="4" fill="#FFFFFF" pointer-events="none"/>
+  <!-- Nose -->
+  <ellipse cx="200" cy="158" rx="6" ry="5" fill="#1a1a1a" opacity="0.5" pointer-events="none"/>
+  <!-- Smile -->
+  <path d="M 186 170 Q 200 184 214 170" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" pointer-events="none"/>
+  <!-- Cheeks -->
+  <ellipse cx="170" cy="165" rx="14" ry="9" fill="#FFB3C6" opacity="0.4" pointer-events="none"/>
+  <ellipse cx="230" cy="165" rx="14" ry="9" fill="#FFB3C6" opacity="0.4" pointer-events="none"/>
+
+  <!-- Shirt collar / scrubs visible at neck -->
+  <path data-region="shirt-collar"
+    d="M 178 207 L 178 220 Q 190 228 200 228 Q 210 228 222 220 L 222 207 Q 210 215 200 215 Q 190 215 178 207 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- White coat body -->
+  <path data-region="coat-body"
+    d="M 148 210 Q 138 222 136 245 L 136 350 Q 148 362 200 362 Q 252 362 264 350 L 264 245 Q 262 222 252 210 Q 232 202 200 200 Q 168 202 148 210 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Coat lapels -->
+  <path d="M 178 207 Q 188 225 192 248 L 200 255 L 208 248 Q 212 225 222 207" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round" pointer-events="none"/>
+  <!-- Coat buttons -->
+  <circle cx="200" cy="280" r="5" fill="#1a1a1a" opacity="0.4" pointer-events="none"/>
+  <circle cx="200" cy="305" r="5" fill="#1a1a1a" opacity="0.4" pointer-events="none"/>
+  <circle cx="200" cy="330" r="5" fill="#1a1a1a" opacity="0.4" pointer-events="none"/>
+  <!-- Breast pocket -->
+  <rect x="225" y="240" width="28" height="22" rx="4" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+
+  <!-- Left Arm -->
+  <path data-region="left-arm"
+    d="M 148 210 Q 120 218 108 245 Q 100 268 108 298 Q 115 318 130 318 Q 142 318 148 305 L 148 248 Q 148 222 148 210 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Left cuff -->
+  <rect x="100" y="295" width="50" height="18" rx="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <!-- Left hand -->
+  <ellipse cx="125" cy="325" rx="22" ry="14" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+
+  <!-- Right Arm -->
+  <path data-region="right-arm"
+    d="M 252 210 Q 280 218 292 245 Q 300 268 292 298 Q 285 318 270 318 Q 258 318 252 305 L 252 248 Q 252 222 252 210 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Right cuff -->
+  <rect x="250" y="295" width="50" height="18" rx="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <!-- Right hand -->
+  <ellipse cx="275" cy="325" rx="22" ry="14" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+
+  <!-- Stethoscope (chest piece) -->
+  <circle data-region="stethoscope" cx="175" cy="268" r="20"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+  <!-- Stethoscope X -->
+  <line x1="166" y1="259" x2="184" y2="277" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <line x1="184" y1="259" x2="166" y2="277" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <!-- Tube going to ears (decorative) -->
+  <path d="M 175 248 Q 180 228 188 220 Q 196 215 204 218 Q 212 222 215 230 Q 218 240 212 248 Q 206 242 210 235 Q 212 228 207 226 Q 200 224 194 232 Q 188 240 182 248" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Medical bag -->
+  <rect data-region="medical-bag" x="265" y="310" width="62" height="52" rx="10"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+  <!-- Bag handle -->
+  <path d="M 280 310 Q 280 298 296 295 Q 312 298 312 310" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" pointer-events="none"/>
+  <!-- Bag cross -->
+  <rect x="285" y="326" width="28" height="8" rx="3" fill="#1a1a1a" opacity="0.35" pointer-events="none"/>
+  <rect x="292" y="319" width="8" height="22" rx="3" fill="#1a1a1a" opacity="0.35" pointer-events="none"/>
+
+  <!-- Trousers -->
+  <path data-region="trousers"
+    d="M 148 348 Q 145 362 142 400 L 174 400 Q 178 372 180 352 Q 190 362 200 362 Q 210 362 220 352 Q 222 372 226 400 L 258 400 Q 255 362 252 348 Q 232 355 200 355 Q 168 355 148 348 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Left Shoe -->
+  <ellipse data-region="left-shoe" cx="158" cy="398" rx="30" ry="10"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+
+  <!-- Right Shoe -->
+  <ellipse data-region="right-shoe" cx="242" cy="398" rx="30" ry="10"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+</svg>

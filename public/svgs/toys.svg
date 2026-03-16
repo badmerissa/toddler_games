@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Shelf back panel -->
+  <rect x="0" y="0" width="400" height="400" fill="#FFFFFF" stroke="none"/>
+  <!-- Shelf plank top -->
+  <rect x="5" y="198" width="390" height="18" rx="5" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <!-- Floor line -->
+  <rect x="5" y="372" width="390" height="15" rx="5" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+
+  <!-- ══ TOP SHELF ══ -->
+
+  <!-- Rocket (top-left area) -->
+  <path data-region="rocket-body"
+    d="M 58 60 Q 58 20 80 12 Q 102 20 102 60 L 102 148 L 58 148 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Rocket nose cone -->
+  <path data-region="rocket-nose"
+    d="M 58 60 Q 80 30 102 60 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- Rocket window -->
+  <circle cx="80" cy="105" r="16" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <circle cx="80" cy="105" r="8" fill="#1a1a1a" opacity="0.18" pointer-events="none"/>
+  <!-- Rocket fins -->
+  <polygon points="58,148 38,178 58,168" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round" pointer-events="none"/>
+  <polygon points="102,148 122,178 102,168" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round" pointer-events="none"/>
+  <!-- Rocket flame -->
+  <path d="M 62 175 Q 80 198 98 175 Q 88 188 80 200 Q 72 188 62 175 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" pointer-events="none"/>
+
+  <!-- Kite (top-centre) -->
+  <polygon data-region="kite-top"
+    points="200,15 248,100 200,100"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <polygon data-region="kite-bottom"
+    points="200,100 248,100 200,185 152,100"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Kite cross sticks (decorative) -->
+  <line x1="200" y1="15" x2="200" y2="185" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <line x1="152" y1="100" x2="248" y2="100" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <!-- Kite tail -->
+  <path d="M 200 185 Q 188 200 196 215 Q 208 225 200 240" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <!-- Tail bows -->
+  <ellipse cx="192" cy="207" rx="8" ry="5" transform="rotate(-30 192 207)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <ellipse cx="200" cy="232" rx="8" ry="5" transform="rotate(15 200 232)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+
+  <!-- Star (top-right) -->
+  <polygon data-region="star"
+    points="330,22 340,52 372,52 347,70 356,100 330,82 304,100 313,70 288,52 320,52"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Star face -->
+  <circle cx="321" cy="60" r="5" fill="#1a1a1a" opacity="0.35" pointer-events="none"/>
+  <circle cx="339" cy="60" r="5" fill="#1a1a1a" opacity="0.35" pointer-events="none"/>
+  <path d="M 323 73 Q 330 80 337 73" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- ══ BOTTOM SHELF ══ -->
+
+  <!-- Teddy Bear body -->
+  <ellipse data-region="teddy-body" cx="68" cy="295" rx="45" ry="52"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Teddy tummy -->
+  <ellipse cx="68" cy="302" rx="24" ry="28" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <!-- Arms -->
+  <ellipse cx="28" cy="272" rx="20" ry="12" transform="rotate(-35 28 272)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <ellipse cx="108" cy="272" rx="20" ry="12" transform="rotate(35 108 272)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <!-- Legs -->
+  <ellipse cx="48" cy="343" rx="18" ry="12" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <ellipse cx="88" cy="343" rx="18" ry="12" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+
+  <!-- Teddy Bear head -->
+  <circle data-region="teddy-head" cx="68" cy="238" r="36"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Teddy ears -->
+  <circle cx="42" cy="210" r="14" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <circle cx="94" cy="210" r="14" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <circle cx="42" cy="210" r="7" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <circle cx="94" cy="210" r="7" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <!-- Teddy eyes -->
+  <circle cx="57" cy="232" r="8" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="79" cy="232" r="8" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="59" cy="229" r="3" fill="#FFFFFF" pointer-events="none"/>
+  <circle cx="81" cy="229" r="3" fill="#FFFFFF" pointer-events="none"/>
+  <!-- Teddy nose & mouth -->
+  <ellipse cx="68" cy="244" rx="8" ry="6" fill="#1a1a1a" pointer-events="none"/>
+  <path d="M 62 250 Q 68 257 74 250" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Building block A -->
+  <rect data-region="block-a" x="148" y="232" width="60" height="60" rx="8"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Block A letter -->
+  <text x="178" y="272" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#1a1a1a" opacity="0.3" pointer-events="none">A</text>
+
+  <!-- Building block B (stacked on A) -->
+  <rect data-region="block-b" x="158" y="172" width="55" height="60" rx="8"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <text x="185" y="212" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a" opacity="0.3" pointer-events="none">B</text>
+
+  <!-- Building block C (to right of A) -->
+  <rect data-region="block-c" x="208" y="232" width="58" height="60" rx="8"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <text x="237" y="272" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a" opacity="0.3" pointer-events="none">C</text>
+
+  <!-- Ball top half -->
+  <path data-region="ball-top"
+    d="M 284 248 Q 284 216 316 213 Q 348 216 348 248 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Ball bottom half -->
+  <path data-region="ball-bottom"
+    d="M 284 248 Q 284 295 316 298 Q 348 295 348 248 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Ball seam lines -->
+  <path d="M 284 248 Q 316 235 348 248" fill="none" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <path d="M 297 215 Q 316 245 297 295" fill="none" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <path d="M 335 215 Q 316 245 335 295" fill="none" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+
+  <!-- Toy Car -->
+  <path data-region="toy-car"
+    d="M 285 330 Q 285 310 300 308 L 358 308 Q 375 310 378 330 L 378 360 L 285 360 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Car window -->
+  <rect x="305" y="310" width="38" height="24" rx="5" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <!-- Car wheels -->
+  <circle cx="308" cy="363" r="14" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5" pointer-events="none"/>
+  <circle cx="308" cy="363" r="6" fill="#1a1a1a" opacity="0.2" pointer-events="none"/>
+  <circle cx="355" cy="363" r="14" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5" pointer-events="none"/>
+  <circle cx="355" cy="363" r="6" fill="#1a1a1a" opacity="0.2" pointer-events="none"/>
+</svg>

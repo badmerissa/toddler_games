@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Tail (closed banana shape, drawn behind body) -->
+  <path data-region="tail"
+    d="M 308 312 Q 370 272 364 212 Q 358 178 342 184 Q 326 190 332 214 Q 338 232 322 264 Q 314 284 308 312 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Tail tuft -->
+  <ellipse data-region="tail-tuft" cx="340" cy="188" rx="22" ry="18"
+    transform="rotate(-20 340 188)"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+
+  <!-- Body (large oval below mane) -->
+  <ellipse data-region="body" cx="200" cy="338" rx="118" ry="72"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Tummy (lighter inner oval) -->
+  <ellipse data-region="tummy" cx="200" cy="348" rx="68" ry="50"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Left Front Paw -->
+  <ellipse data-region="left-front-paw" cx="142" cy="388" rx="44" ry="18"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Left paw toe lines -->
+  <line x1="127" y1="395" x2="125" y2="400" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <line x1="142" y1="397" x2="142" y2="402" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <line x1="157" y1="395" x2="159" y2="400" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Right Front Paw -->
+  <ellipse data-region="right-front-paw" cx="258" cy="388" rx="44" ry="18"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Right paw toe lines -->
+  <line x1="243" y1="395" x2="241" y2="400" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <line x1="258" y1="397" x2="258" y2="402" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <line x1="273" y1="395" x2="275" y2="400" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Mane (big circle, drawn before head) -->
+  <circle data-region="mane" cx="200" cy="195" r="108"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Mane fluffy texture lines (decorative) -->
+  <path d="M 110 148 Q 118 160 115 175" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.35" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 102 200 Q 112 208 108 222" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.35" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 290 148 Q 282 160 285 175" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.35" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 298 200 Q 288 208 292 222" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.35" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 152 100 Q 158 112 155 125" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.35" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 248 100 Q 242 112 245 125" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.35" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Left Ear -->
+  <polygon data-region="left-ear"
+    points="128,100 102,45 158,88"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Left Inner Ear -->
+  <polygon data-region="left-inner-ear"
+    points="126,97 108,60 148,90"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Right Ear -->
+  <polygon data-region="right-ear"
+    points="272,100 298,45 242,88"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Right Inner Ear -->
+  <polygon data-region="right-inner-ear"
+    points="274,97 292,60 252,90"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Head (circle, on top of mane) -->
+  <circle data-region="head" cx="200" cy="192" r="72"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Nose patch / muzzle -->
+  <ellipse data-region="nose-patch" cx="200" cy="226" rx="44" ry="30"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="175" cy="185" r="12" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="225" cy="185" r="12" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="178" cy="181" r="4.5" fill="#FFFFFF" pointer-events="none"/>
+  <circle cx="228" cy="181" r="4.5" fill="#FFFFFF" pointer-events="none"/>
+  <!-- Nose -->
+  <ellipse cx="200" cy="222" rx="10" ry="7" fill="#1a1a1a" pointer-events="none"/>
+  <!-- Nostrils -->
+  <ellipse cx="196" cy="224" rx="3" ry="2" fill="#FFFFFF" pointer-events="none"/>
+  <ellipse cx="204" cy="224" rx="3" ry="2" fill="#FFFFFF" pointer-events="none"/>
+  <!-- Smile -->
+  <path d="M 182 234 Q 200 248 218 234" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <!-- Whisker dots -->
+  <circle cx="172" cy="230" r="3" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="172" cy="240" r="3" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="228" cy="230" r="3" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="228" cy="240" r="3" fill="#1a1a1a" pointer-events="none"/>
+</svg>
