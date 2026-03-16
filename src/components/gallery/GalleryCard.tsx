@@ -20,7 +20,7 @@ export function GalleryCard({ image }: Props) {
 
   return (
     <Link
-      href={`/color/${image.slug}/`}
+      href={`/coloring-book/${image.slug}/`}
       aria-label={image.label}
       className="
         relative flex flex-col items-center justify-center
