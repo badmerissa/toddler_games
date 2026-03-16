@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Sky background -->
+  <rect data-region="sky" x="0" y="0" width="400" height="248"
+    fill="#FFFFFF" stroke="none"/>
+
+  <!-- Sun -->
+  <circle data-region="sun" cx="55" cy="58" r="36"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Sun rays -->
+  <line x1="55" y1="9" x2="55" y2="1" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="85" y1="18" x2="91" y2="12" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="104" y1="58" x2="112" y2="58" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="25" y1="18" x2="19" y2="12" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="6" y1="58" x2="-2" y2="58" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="85" y1="95" x2="91" y2="101" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="25" y1="95" x2="19" y2="101" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+  <line x1="55" y1="107" x2="55" y2="115" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Water background wave (far) -->
+  <path data-region="wave-2"
+    d="M 0 260 Q 50 248 100 260 Q 150 272 200 260 Q 250 248 300 260 Q 350 272 400 260 L 400 295 Q 350 285 300 290 Q 250 295 200 290 Q 150 285 100 290 Q 50 295 0 285 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Water (main sea body) -->
+  <path data-region="water"
+    d="M 0 285 Q 50 278 100 285 Q 150 292 200 285 Q 250 278 300 285 Q 350 292 400 285 L 400 400 L 0 400 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Water ripple lines -->
+  <path d="M 15 310 Q 55 304 95 310" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 180 320 Q 220 314 260 320" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 310 330 Q 350 324 390 330" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 50 350 Q 95 344 140 350" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 240 360 Q 285 354 330 360" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Foreground wave (splash around dolphin) -->
+  <path data-region="wave-1"
+    d="M 120 275 Q 148 258 170 268 Q 185 275 195 268 Q 210 258 230 265 Q 248 272 262 260 Q 275 250 290 258 Q 300 265 295 278 Q 278 268 265 274 Q 248 282 232 272 Q 218 264 205 272 Q 192 280 178 272 Q 162 262 148 278 Q 138 288 120 275 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Dolphin body (main large curved shape) -->
+  <path data-region="dolphin-body"
+    d="M 155 238 Q 185 188 238 168 Q 295 152 330 178 Q 358 200 355 230 Q 350 258 325 265 Q 295 272 260 258 Q 228 245 208 255 Q 185 268 168 262 Q 152 255 155 238 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Dolphin belly (lighter patch on underside) -->
+  <path data-region="dolphin-belly"
+    d="M 175 248 Q 200 228 245 218 Q 290 210 318 228 Q 340 242 335 255 Q 308 262 270 252 Q 240 244 215 252 Q 195 260 175 248 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Dorsal fin (on top of body) -->
+  <path data-region="dorsal-fin"
+    d="M 265 170 Q 268 138 285 118 Q 295 135 302 158 Q 295 162 285 168 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Left Pectoral fin -->
+  <path data-region="pectoral-fin"
+    d="M 205 235 Q 192 258 178 268 Q 168 272 165 262 Q 168 248 185 238 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5" stroke-linejoin="round"/>
+
+  <!-- Tail left fluke -->
+  <path data-region="tail-left-fluke"
+    d="M 155 238 Q 128 228 108 235 Q 95 240 105 252 Q 120 258 140 248 Q 148 244 155 248 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Tail right fluke -->
+  <path data-region="tail-right-fluke"
+    d="M 155 248 Q 148 258 140 265 Q 125 275 115 268 Q 108 260 120 252 Q 135 248 148 255 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Dolphin eye -->
+  <circle cx="318" cy="192" r="10" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="321" cy="189" r="4" fill="#FFFFFF" pointer-events="none"/>
+
+  <!-- Dolphin smile / beak line -->
+  <path d="M 340 215 Q 360 210 368 218 Q 365 228 355 228 Q 348 228 340 222" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 340 218 Q 352 214 362 220" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Water splash droplets around dolphin -->
+  <ellipse cx="172" cy="258" rx="7" ry="10" transform="rotate(-20 172 258)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <ellipse cx="182" cy="248" rx="5" ry="8" transform="rotate(15 182 248)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <ellipse cx="295" cy="262" rx="6" ry="9" transform="rotate(-10 295 262)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <ellipse cx="308" cy="268" rx="5" ry="7" transform="rotate(20 308 268)" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+
+  <!-- Seagulls in sky (decorative) -->
+  <path d="M 160 105 Q 165 98 172 105" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 192 88 Q 198 80 206 88" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 240 118 Q 245 110 252 118" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+</svg>

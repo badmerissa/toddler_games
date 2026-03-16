@@ -1,6 +1,7 @@
 import type { ColoringImage } from '@/types';
 
 export const coloringImages: ColoringImage[] = [
+  // ── Original 8 ────────────────────────────────────────
   {
     slug: 'cat',
     label: 'Cat',
@@ -56,6 +57,78 @@ export const coloringImages: ColoringImage[] = [
     svgPath: '/svgs/house.svg',
     regionCount: 6,
     thumbnailColor: '#FFB380',
+  },
+
+  // ── New 10 (more complex) ────────────────────────────
+  {
+    slug: 'princess',
+    label: 'Princess',
+    svgPath: '/svgs/princess.svg',
+    regionCount: 12,
+    thumbnailColor: '#FFB3D9',
+  },
+  {
+    slug: 'lion',
+    label: 'Lion',
+    svgPath: '/svgs/lion.svg',
+    regionCount: 12,
+    thumbnailColor: '#F5A623',
+  },
+  {
+    slug: 'fairy-garden',
+    label: 'Fairy Garden',
+    svgPath: '/svgs/fairy-garden.svg',
+    regionCount: 12,
+    thumbnailColor: '#7ED321',
+  },
+  {
+    slug: 'train',
+    label: 'Train',
+    svgPath: '/svgs/train.svg',
+    regionCount: 11,
+    thumbnailColor: '#4A90D9',
+  },
+  {
+    slug: 'frog',
+    label: 'Frog',
+    svgPath: '/svgs/frog.svg',
+    regionCount: 12,
+    thumbnailColor: '#5CB85C',
+  },
+  {
+    slug: 'ladybug',
+    label: 'Ladybug',
+    svgPath: '/svgs/ladybug.svg',
+    regionCount: 11,
+    thumbnailColor: '#D0021B',
+  },
+  {
+    slug: 'doctor',
+    label: 'Doctor',
+    svgPath: '/svgs/doctor.svg',
+    regionCount: 11,
+    thumbnailColor: '#A8D8EA',
+  },
+  {
+    slug: 'toys',
+    label: 'Toys',
+    svgPath: '/svgs/toys.svg',
+    regionCount: 11,
+    thumbnailColor: '#F8E71C',
+  },
+  {
+    slug: 'beach',
+    label: 'Beach',
+    svgPath: '/svgs/beach.svg',
+    regionCount: 12,
+    thumbnailColor: '#87CEEB',
+  },
+  {
+    slug: 'dolphin',
+    label: 'Dolphin',
+    svgPath: '/svgs/dolphin.svg',
+    regionCount: 11,
+    thumbnailColor: '#5AC8FA',
   },
 ];
 

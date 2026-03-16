@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Sky (background) -->
+  <rect data-region="sky" x="0" y="0" width="400" height="268"
+    fill="#FFFFFF" stroke="none"/>
+
+  <!-- Ground -->
+  <rect data-region="ground" x="0" y="268" width="400" height="132" rx="0"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Winding path through garden -->
+  <path data-region="garden-path"
+    d="M 140 400 Q 155 360 165 330 Q 175 305 178 280 Q 182 272 200 270 Q 218 272 222 280 Q 228 305 235 330 Q 245 360 260 400 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Tree trunk (left side) -->
+  <rect data-region="tree-trunk" x="42" y="200" width="46" height="200" rx="12"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Bark lines -->
+  <path d="M 50 230 Q 60 235 68 230" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.4" pointer-events="none"/>
+  <path d="M 50 260 Q 60 265 68 260" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.4" pointer-events="none"/>
+  <path d="M 50 295 Q 60 300 68 295" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.4" pointer-events="none"/>
+
+  <!-- Tree canopy -->
+  <circle data-region="tree-top" cx="65" cy="175" r="72"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Leaf texture bumps (decorative) -->
+  <path d="M 30 148 Q 40 135 52 148" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.3" pointer-events="none"/>
+  <path d="M 75 125 Q 88 112 100 126" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.3" pointer-events="none"/>
+  <path d="M 20 185 Q 30 172 42 185" fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.3" pointer-events="none"/>
+
+  <!-- Mushroom stem (right side) -->
+  <rect data-region="mushroom-stem" x="295" y="280" width="40" height="60" rx="10"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Mushroom cap -->
+  <path data-region="mushroom-cap"
+    d="M 268 285 Q 272 228 315 222 Q 358 228 362 285 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Mushroom spots -->
+  <circle cx="300" cy="252" r="12" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <circle cx="330" cy="244" r="10" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <circle cx="345" cy="262" r="9" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+
+  <!-- Big Sunflower (centre) — petal ring -->
+  <path data-region="flower-petals"
+    d="M 200 148 Q 188 128 190 108 Q 200 120 210 108 Q 212 128 200 148 Z M 230 160 Q 250 148 268 152 Q 258 162 268 175 Q 250 175 230 160 Z M 230 195 Q 248 208 248 228 Q 236 220 228 232 Q 218 215 230 195 Z M 200 210 Q 212 232 200 245 Q 188 232 200 210 Z M 170 195 Q 182 215 172 232 Q 164 220 152 228 Q 152 208 170 195 Z M 170 160 Q 150 175 132 175 Q 142 162 132 152 Q 150 148 170 160 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Flower centre -->
+  <circle data-region="flower-centre" cx="200" cy="178" r="32"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Centre seeds (decorative) -->
+  <circle cx="192" cy="172" r="4" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="203" cy="170" r="4" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="213" cy="174" r="4" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="208" cy="184" r="4" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="197" cy="185" r="4" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="188" cy="180" r="4" fill="#1a1a1a" pointer-events="none"/>
+
+  <!-- Small flower left -->
+  <circle data-region="small-flower-left" cx="118" cy="282" r="22"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+  <circle cx="118" cy="282" r="9" fill="#1a1a1a" pointer-events="none"/>
+  <!-- Stem -->
+  <line x1="118" y1="304" x2="118" y2="325" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" pointer-events="none"/>
+
+  <!-- Fence (right side, 3 planks) -->
+  <rect data-region="fence" x="340" y="252" width="55" height="148" rx="6"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+  <!-- Fence rail lines -->
+  <line x1="340" y1="290" x2="395" y2="290" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <line x1="340" y1="330" x2="395" y2="330" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <!-- Picket top points -->
+  <polygon points="348,252 353,238 358,252" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <polygon points="362,252 367,238 372,252" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <polygon points="376,252 381,238 386,252" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+
+  <!-- Butterfly left wing -->
+  <path data-region="butterfly-wing-left"
+    d="M 278 82 Q 248 58 240 78 Q 235 95 258 105 Q 268 108 278 102 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Butterfly right wing -->
+  <path data-region="butterfly-wing-right"
+    d="M 278 82 Q 308 58 316 78 Q 321 95 298 105 Q 288 108 278 102 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Butterfly body -->
+  <ellipse cx="278" cy="92" rx="5" ry="14" fill="#1a1a1a" pointer-events="none"/>
+  <!-- Antennae -->
+  <path d="M 275 79 Q 265 65 260 58" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <path d="M 281 79 Q 291 65 296 58" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" pointer-events="none"/>
+  <circle cx="260" cy="57" r="4" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="296" cy="57" r="4" fill="#1a1a1a" pointer-events="none"/>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Ground rail / track -->
+  <rect x="0" y="355" width="400" height="10" rx="4" fill="#1a1a1a" opacity="0.15" pointer-events="none"/>
+  <line x1="0" y1="352" x2="400" y2="352" stroke="#1a1a1a" stroke-width="3" opacity="0.2" pointer-events="none"/>
+  <!-- Sleepers -->
+  <rect x="30" y="350" width="20" height="14" rx="2" fill="#1a1a1a" opacity="0.12" pointer-events="none"/>
+  <rect x="80" y="350" width="20" height="14" rx="2" fill="#1a1a1a" opacity="0.12" pointer-events="none"/>
+  <rect x="140" y="350" width="20" height="14" rx="2" fill="#1a1a1a" opacity="0.12" pointer-events="none"/>
+  <rect x="200" y="350" width="20" height="14" rx="2" fill="#1a1a1a" opacity="0.12" pointer-events="none"/>
+  <rect x="260" y="350" width="20" height="14" rx="2" fill="#1a1a1a" opacity="0.12" pointer-events="none"/>
+  <rect x="320" y="350" width="20" height="14" rx="2" fill="#1a1a1a" opacity="0.12" pointer-events="none"/>
+
+  <!-- Smoke cloud (top-left above smokestack) -->
+  <path data-region="smoke"
+    d="M 314 108 Q 295 90 298 72 Q 302 52 320 55 Q 322 40 338 42 Q 355 38 358 55 Q 375 52 378 68 Q 382 85 365 92 Q 368 110 352 112 Q 340 118 326 112 Q 314 116 314 108 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5" stroke-linejoin="round"/>
+
+  <!-- Smokestack -->
+  <rect data-region="smokestack" x="315" y="112" width="28" height="62" rx="8"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Stack lip -->
+  <rect x="310" y="108" width="38" height="12" rx="5" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+
+  <!-- Boiler (long main body) -->
+  <rect data-region="boiler" x="145" y="220" width="210" height="130" rx="40"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Steam dome (small dome on top of boiler) -->
+  <path data-region="steam-dome"
+    d="M 238 220 Q 238 192 258 188 Q 278 192 278 220 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- Dome cap -->
+  <ellipse cx="258" cy="188" rx="20" ry="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+
+  <!-- Cab body -->
+  <rect data-region="cab-body" x="60" y="230" width="92" height="120" rx="8"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Cab roof -->
+  <rect data-region="cab-roof" x="52" y="210" width="108" height="28" rx="10"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Cab window -->
+  <rect x="80" y="248" width="52" height="42" rx="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4" pointer-events="none"/>
+  <!-- Window cross -->
+  <line x1="106" y1="248" x2="106" y2="290" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <line x1="80" y1="269" x2="132" y2="269" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+
+  <!-- Connecting rod (links drive wheels) -->
+  <rect data-region="connecting-rod" x="105" y="314" width="185" height="18" rx="8"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+
+  <!-- Front small wheel (pony) -->
+  <circle data-region="wheel-front" cx="320" cy="340" r="30"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <circle cx="320" cy="340" r="12" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <line x1="308" y1="340" x2="332" y2="340" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <line x1="320" y1="328" x2="320" y2="352" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+
+  <!-- Middle large drive wheel -->
+  <circle data-region="wheel-middle" cx="218" cy="340" r="42"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <circle cx="218" cy="340" r="16" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <line x1="202" y1="340" x2="234" y2="340" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <line x1="218" y1="324" x2="218" y2="356" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <line x1="206" y1="328" x2="230" y2="352" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <line x1="230" y1="328" x2="206" y2="352" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+
+  <!-- Rear large drive wheel -->
+  <circle data-region="wheel-rear" cx="128" cy="340" r="42"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <circle cx="128" cy="340" r="16" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <line x1="112" y1="340" x2="144" y2="340" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <line x1="128" y1="324" x2="128" y2="356" stroke="#1a1a1a" stroke-width="3" pointer-events="none"/>
+  <line x1="116" y1="328" x2="140" y2="352" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <line x1="140" y1="328" x2="116" y2="352" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+
+  <!-- Tender / coal car -->
+  <path data-region="tender"
+    d="M 5 268 Q 5 248 15 244 L 62 244 L 62 350 L 5 350 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Tender coal lumps (decorative) -->
+  <ellipse cx="25" cy="258" rx="10" ry="6" fill="#1a1a1a" opacity="0.15" pointer-events="none"/>
+  <ellipse cx="42" cy="255" rx="9" ry="6" fill="#1a1a1a" opacity="0.15" pointer-events="none"/>
+  <ellipse cx="32" cy="266" rx="8" ry="5" fill="#1a1a1a" opacity="0.15" pointer-events="none"/>
+
+  <!-- Front bumper -->
+  <rect data-region="front-bumper" x="352" y="310" width="38" height="24" rx="7"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+  <!-- Coupling hook -->
+  <path d="M 385 322 Q 395 318 395 326 Q 395 334 385 330" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" pointer-events="none"/>
+</svg>
