@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Water background -->
+  <rect data-region="water" x="0" y="0" width="400" height="400" rx="0"
+    fill="#FFFFFF" stroke="none"/>
+  <!-- Water ripple lines (decorative) -->
+  <ellipse cx="80" cy="360" rx="45" ry="10" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.2" pointer-events="none"/>
+  <ellipse cx="330" cy="340" rx="38" ry="9" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.2" pointer-events="none"/>
+  <ellipse cx="200" cy="390" rx="55" ry="10" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.2" pointer-events="none"/>
+
+  <!-- Lily pad -->
+  <path data-region="lily-pad"
+    d="M 200 370 Q 278 358 318 318 Q 348 278 340 245 Q 330 215 308 215 Q 282 215 258 232 Q 238 245 220 252 Q 200 255 180 252 Q 162 245 142 232 Q 118 215 92 215 Q 70 215 60 245 Q 52 278 82 318 Q 122 358 200 370 Z"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Lily pad veins (decorative) -->
+  <path d="M 200 255 L 200 368" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.25" pointer-events="none"/>
+  <path d="M 200 255 Q 262 275 318 318" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.25" pointer-events="none"/>
+  <path d="M 200 255 Q 138 275 82 318" fill="none" stroke="#1a1a1a" stroke-width="2" opacity="0.25" pointer-events="none"/>
+  <!-- Lily pad notch (decorative V cut) -->
+  <path d="M 200 255 L 192 240 L 200 248 L 208 240 Z" fill="#FFFFFF" stroke="none" pointer-events="none"/>
+  <path d="M 192 240 L 200 250 L 208 240" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linejoin="round" pointer-events="none"/>
+
+  <!-- Lily flower on pad -->
+  <circle data-region="lily-flower" cx="308" cy="248" r="26"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Petal outlines around centre -->
+  <path d="M 308 222 Q 315 232 308 240 Q 301 232 308 222 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <path d="M 334 248 Q 324 255 316 248 Q 324 241 334 248 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <path d="M 282 248 Q 292 255 300 248 Q 292 241 282 248 Z" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="2.5" pointer-events="none"/>
+  <circle cx="308" cy="248" r="10" fill="#1a1a1a" opacity="0.15" pointer-events="none"/>
+
+  <!-- Back Left Leg -->
+  <ellipse data-region="back-left-leg" cx="112" cy="292" rx="55" ry="30"
+    transform="rotate(30 112 292)"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Back left foot toes -->
+  <circle cx="76" cy="318" r="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <circle cx="62" cy="308" r="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <circle cx="60" cy="292" r="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+
+  <!-- Back Right Leg -->
+  <ellipse data-region="back-right-leg" cx="288" cy="292" rx="55" ry="30"
+    transform="rotate(-30 288 292)"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Back right foot toes -->
+  <circle cx="324" cy="318" r="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <circle cx="338" cy="308" r="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+  <circle cx="340" cy="292" r="8" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="3.5" pointer-events="none"/>
+
+  <!-- Frog Body -->
+  <ellipse data-region="frog-body" cx="200" cy="272" rx="78" ry="68"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Belly (lighter front patch) -->
+  <ellipse data-region="belly" cx="200" cy="282" rx="48" ry="46"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Front Left Leg -->
+  <ellipse data-region="front-left-leg" cx="148" cy="328" rx="28" ry="18"
+    transform="rotate(20 148 328)"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+
+  <!-- Front Right Leg -->
+  <ellipse data-region="front-right-leg" cx="252" cy="328" rx="28" ry="18"
+    transform="rotate(-20 252 328)"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="4.5"/>
+
+  <!-- Frog Head -->
+  <ellipse data-region="frog-head" cx="200" cy="228" rx="84" ry="55"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Left Eye Bump -->
+  <circle data-region="left-eye-bump" cx="162" cy="200" r="28"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Left eye pupil -->
+  <circle cx="162" cy="200" r="14" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="166" cy="196" r="5" fill="#FFFFFF" pointer-events="none"/>
+
+  <!-- Right Eye Bump -->
+  <circle data-region="right-eye-bump" cx="238" cy="200" r="28"
+    fill="#FFFFFF" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Right eye pupil -->
+  <circle cx="238" cy="200" r="14" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="242" cy="196" r="5" fill="#FFFFFF" pointer-events="none"/>
+
+  <!-- Nostrils -->
+  <circle cx="190" cy="232" r="5" fill="#1a1a1a" pointer-events="none"/>
+  <circle cx="210" cy="232" r="5" fill="#1a1a1a" pointer-events="none"/>
+  <!-- Big smile -->
+  <path d="M 162 250 Q 200 275 238 250" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round" pointer-events="none"/>
+</svg>
